@@ -1,6 +1,15 @@
+%***********************************************************
+%Aula_02
+%Segunda aula de análise 
+%Versão 1: 28/02 Ultimo modificado em:28/02/23
+%Nome: João Fernando Rangel Guimarães
+%Plota um gráfico com 4 quadrantes
+%************************************************************
+
 clc
 clear all
 close all
+
 %criar matriz 1d
 a = [1;2;3];
 c=a';
