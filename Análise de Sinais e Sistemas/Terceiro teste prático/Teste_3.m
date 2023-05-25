@@ -1,8 +1,8 @@
 %***********************************************************
-%Terceiro teste pr·tico
-%Primeira aula de an·lise 
-%Vers„o 1: 16/05 Ultimo modificado em:16/05
-%Nome: Jo„o Fernando Rangel Guimar„es
+%Terceiro teste pr√°tico
+%
+%Vers√£o 1: 16/05 Ultimo modificado em:25/05
+%Nome: Jo√£o Fernando Rangel Guimar√£es
 %responde as perguntas lmao
 %************************************************************
 clear all
@@ -23,7 +23,7 @@ clc
 
 
 syms x s 
-d = [1 1 -4 -4]; %descobrindo as raÌzes 
+d = [1 1 -4 -4]; %descobrindo as ra√≠zes 
 n = [6 0 -12];
 [r,p,k] = residue(n,d);%[vetor_de_residuos vetor_de_polos
 funcao = 0;
@@ -46,7 +46,7 @@ clear all
 close
 clc
 syms x s 
-d = [1 1 -4 -4]; %descobrindo as raÌzes 
+d = [1 1 -4 -4]; %descobrindo as ra√≠zes 
 n = [6 0 -12];
 transfer = tf(n,d)
 bode(transfer)
