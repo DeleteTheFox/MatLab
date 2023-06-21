@@ -1,12 +1,11 @@
-%%
+%***********************************************************
+%Quarto teste prático
 %
-%
-%
-%
-%
-%
-%%
-%Quest�o 1
+%Versão 1: lembro não
+%Nome: João Fernando Rangel Guimarães
+%responde as perguntas lmao
+%************************************************************
+%Questão 1
 clear all
 close 
 clc
@@ -35,7 +34,7 @@ ylabel('y[n]')
 disp(' n    y');
 disp([num2str([n,y])]);
 %%
-%Quest�o 2
+%Questão 2
 clear all
 close 
 clc
@@ -48,7 +47,7 @@ end
 stem(y);
 y
 %%
-%Quest�o 3
+%Questão 3
 clear all
 close 
 clc
@@ -65,7 +64,7 @@ f = inline('exp(-n/5).*cos(n*pi/5).*(n>=0)');
 stem(n, f(n));
 ylabel(' f[n] ');
 %%
-%Quest�o 4
+%Questão 4
 clear all
 close
 clc
