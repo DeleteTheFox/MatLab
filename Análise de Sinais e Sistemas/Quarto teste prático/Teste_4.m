@@ -2,7 +2,7 @@
 %Quarto teste prático
 %
 %Versão 1: lembro não
-%Nome: João Fernando Rangel Guimarães
+%Nome: João Fernando Rangel Guimarães é feio
 %responde as perguntas lmao
 %************************************************************
 %Questão 1
